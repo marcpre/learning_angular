@@ -4,6 +4,15 @@
 
 `npm install -g @angular/cli@latest`
 
+## Angular CLI
+
+### Create components
+
+`ng generate component servers`
+
+or
+
+`ng g c servers`
 
 
-'--> stopped at 017
+'--> stopped at 023
