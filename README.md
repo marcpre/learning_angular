@@ -24,4 +24,4 @@ Go to Chrome Tools and `Sources` and set breakpoint
 
 Use Angular Augury for debugging
 
-'--> stopped at 005/062
+'--> stopped at 005/064
