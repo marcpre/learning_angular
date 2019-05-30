@@ -34,7 +34,7 @@ export class CockpitComponent implements OnInit {
     })
   }
 
-  onBlueprintAdded() {
+  onAddBlueprint() {
     this.blueprintCreated.emit( {
       serverName: this.newServerName,
       serverContent: this.newServerContent
