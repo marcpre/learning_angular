@@ -25,3 +25,17 @@ Go to Chrome Tools and `Sources` and set breakpoint
 Use Angular Augury for debugging
 
 '--> stopped at 005/070
+
+# Directives
+
+2 Types Structural and  Attribute Directives
+
+## Structural Directives
+* Only affect the element they are added to
+
+## Attribute Directives
+* Look like normal HTML Attributes, but have a leading `*`
+* Affect the whole area in the DOM
+
+
+---> Stopped at 84

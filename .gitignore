@@ -35,6 +35,7 @@ build/Release
 # Dependency directories
 cmp-databinding/node_modules/
 my-first-app/node_modules/
+directives-start/node_modules/
 node_modules/
 jspm_packages/
 
