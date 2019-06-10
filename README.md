@@ -37,5 +37,10 @@ Use Angular Augury for debugging
 * Look like normal HTML Attributes, but have a leading `*`
 * Affect the whole area in the DOM
 
+## Generate directive
 
----> Stopped at 85
+`ng g d directive-name`
+
+
+
+---> Stopped at 87
