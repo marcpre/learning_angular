@@ -41,6 +41,8 @@ Use Angular Augury for debugging
 
 `ng g d directive-name`
 
+# Routing
 
+#
 
----> Stopped at 10/106
+---> Stopped at 11/114
