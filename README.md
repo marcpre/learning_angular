@@ -43,6 +43,6 @@ Use Angular Augury for debugging
 
 # Routing
 
-#
 
----> Stopped at 11/125
+
+---> Stopped at 11/126
