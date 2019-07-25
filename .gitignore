@@ -38,6 +38,7 @@ my-first-app/node_modules/
 directives-start/node_modules/
 services-start/node_modules/
 routing-start/node_modules/
+observables-start/node_modules/
 node_modules/
 jspm_packages/
 
