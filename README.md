@@ -41,8 +41,10 @@ Use Angular Augury for debugging
 
 `ng g d directive-name`
 
-# Routing
+# Observables
 
 
 
----> Stopped at 13/160
+
+
+---> Stopped at 13/162
