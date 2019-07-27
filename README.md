@@ -43,8 +43,8 @@ Use Angular Augury for debugging
 
 # Observables
 
+Used to emit data.
 
 
 
-
----> Stopped at 13/162
+---> Stopped at 13/164
