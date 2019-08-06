@@ -23,7 +23,9 @@
             ngModel
             name="email"
             required
-            email>
+            email
+            #mail="ngModel">
+            <span class="help-block" *ngIf="!mail.valid && mail.touched">Please enter a valid email!</span>
           </div>
           <p *ngif="">Please enter a valid value!</p>
         </div>
