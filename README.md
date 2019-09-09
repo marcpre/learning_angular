@@ -43,8 +43,11 @@ Use Angular Augury for debugging
 
 # Observables
 
-Used to emit data.
+Used to emit datcd pipa.
+
+## Generate directive
+
+`ng g p filter`
 
 
-
----> Stopped at 17/232
+---> Stopped at 17/234
