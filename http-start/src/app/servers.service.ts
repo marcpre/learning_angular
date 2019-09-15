@@ -8,7 +8,12 @@ export class ServerService {
         const headers = new Headers({
             'Content-Type': 'application/json'
         })
+        /*
         return this.http.post('https://udemy-ng-http-6cea2.web.app/databases/data/documents/data.json', 
+            servers, 
+            {headers: headers}
+        )*/
+        return this.http.put('https://udemy-ng-http-6cea2.web.app/databases/data/documents/data.json', 
             servers, 
             {headers: headers}
         )
