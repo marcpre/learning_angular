@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Headers, Http, Response } from "@angular/http";
 import { map } from 'rxjs/operators';
+import { Observable } from "rxjs";
 
 @Injectable()
 export class ServerService {
@@ -21,7 +22,7 @@ export class ServerService {
     }
 
     getServers() {
-        return this.http.get('https://udemy-ng-http-6cea2.web.app/data.json')
+        return this.http.get('https://udemy-ng-http-6cea2.web.app/data')
             .pipe(map(
                 (response: Response) => {
                     const data = response.json()
@@ -30,6 +31,9 @@ export class ServerService {
                     }
                     return data
                 }
-            ))
+            ).catch((error: Response) => {
+                return Observable.throw('Something went wrong.')
+            }
+        ))
     }
 }
